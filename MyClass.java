@@ -1,3 +1,5 @@
+import Biodata.biodata;
+
 public class MyClass {
   public static void main(String[] args) {
     int sum1 = 100 + 50;
@@ -8,5 +10,7 @@ public class MyClass {
     System.out.println(sum2);
     System.out.println(sum3); 
     System.out.println(sum4); 
+
+	biodata.main();
   }
 }
